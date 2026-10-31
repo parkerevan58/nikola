@@ -155,7 +155,7 @@
                 <i class="fa-brands fa-orcid text-emerald-500"></i> ORCID iD
               </a>
               <a
-                href="https://linkedin.com"
+                href="https://www.linkedin.com/in/parker-evans-aa8341448/"
                 target="_blank"
                 rel="noopener"
                 class="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-slate-900 border border-slate-800 hover:border-brand-500/50 hover:text-brand-500 transition text-sm font-medium"
@@ -163,7 +163,7 @@
                 <i class="fa-brands fa-linkedin text-sky-500"></i> LinkedIn
               </a>
               <a
-                href="https://github.com"
+                href="https://github.com/parkerevan58"
                 target="_blank"
                 rel="noopener"
                 class="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-slate-900 border border-slate-800 hover:border-brand-500/50 hover:text-brand-500 transition text-sm font-medium"
@@ -495,11 +495,11 @@
                                 ${images
                                   .map(
                                     (img) => `
-                                    <figure class="overflow-hidden rounded-lg border border-slate-800 bg-slate-950">
-                                        <img src="${img.src}" alt="${img.alt}" class="w-full h-48 object-cover hover:scale-105 transition duration-300" loading="lazy" />
-                                        ${img.caption ? `<figcaption class="p-2 text-xs text-slate-400 border-t border-slate-800/80">${img.caption}</figcaption>` : ""}
-                                    </figure>
-                                `,
+                                <figure class="overflow-hidden rounded-lg border border-slate-800 bg-slate-950">
+                                    <img src="${img.src}" alt="${img.alt}" class="w-full h-48 object-cover hover:scale-105 transition duration-300" loading="lazy" />
+                                    ${img.caption ? `<figcaption class="p-2 text-xs text-slate-400 border-t border-slate-800/80">${img.caption}</figcaption>` : ""}
+                                </figure>
+                            `,
                                   )
                                   .join("")}
                             </div>
@@ -527,7 +527,7 @@
                           tags.length > 0
                             ? `
                             <div class="flex flex-wrap gap-2 pt-2 border-t border-slate-800/80 mt-2">
-                                ${tags.map((t) => `<span class="bg-slate-800/80 text-slate-400 text-xs px-2.5 py-1 rounded-md font-mono">#${t}</span>`).join("")}
+                                ${tags.log || tags.map((t) => `<span class="bg-slate-800/80 text-slate-400 text-xs px-2.5 py-1 rounded-md font-mono">#${t}</span>`).join("")}
                             </div>
                         `
                             : ""
