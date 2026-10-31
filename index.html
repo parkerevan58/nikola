@@ -1,0 +1,552 @@
+<!doctype html>
+<html lang="en" class="dark scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio & R&D Hub • Enterprise, Innovation & Systems</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              brand: {
+                50: "#f0fdfa",
+                500: "#14b8a6",
+                600: "#0d9488",
+                900: "#134e4a",
+              },
+            },
+          },
+        },
+      };
+    </script>
+    <!-- FontAwesome Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body
+    class="bg-slate-950 text-slate-100 font-sans antialiased selection:bg-brand-500 selection:text-white min-h-screen flex flex-col"
+  >
+    <!-- Navigation Bar -->
+    <header
+      class="sticky top-0 z-50 bg-slate-950/80 backdrop-blur-md border-b border-slate-800"
+    >
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex items-center justify-between h-16">
+          <!-- Logo / Brand -->
+          <a
+            href="#"
+            class="flex items-center gap-2 text-xl font-bold tracking-tight text-white group"
+          >
+            <span
+              class="w-8 h-8 rounded-lg bg-brand-500/10 border border-brand-500/30 flex items-center justify-center text-brand-500 group-hover:bg-brand-500 group-hover:text-slate-950 transition"
+            >
+              <i class="fa-solid fa-bolt text-sm"></i>
+            </span>
+            <span>R&amp;D<span class="text-brand-500">.</span>Enterprise</span>
+          </a>
+
+          <!-- Desktop Navigation -->
+          <nav
+            class="hidden md:flex items-center gap-8 text-sm font-medium text-slate-300"
+          >
+            <a href="#about" class="hover:text-brand-500 transition">About</a>
+            <a href="#impact" class="hover:text-brand-500 transition"
+              >Impact & Metrics</a
+            >
+            <a href="#ventures" class="hover:text-brand-500 transition"
+              >Ventures & SDG 9</a
+            >
+            <a href="#logs" class="hover:text-brand-500 transition"
+              >XHTML Lab Logs</a
+            >
+            <a href="#contact" class="hover:text-brand-500 transition"
+              >Contact</a
+            >
+          </nav>
+
+          <!-- Mobile Menu Button -->
+          <button
+            id="menu-btn"
+            aria-label="Toggle navigation"
+            class="md:hidden p-2 rounded-lg text-slate-400 hover:text-white hover:bg-slate-900 focus:outline-none"
+          >
+            <i class="fa-solid fa-bars text-xl" id="menu-icon"></i>
+          </button>
+        </div>
+      </div>
+
+      <!-- Mobile Navigation Menu -->
+      <div
+        id="mobile-menu"
+        class="hidden md:hidden border-b border-slate-800 bg-slate-950/95 px-4 pt-2 pb-6 space-y-3"
+      >
+        <a
+          href="#about"
+          class="block px-3 py-2 rounded-md text-base font-medium text-slate-200 hover:bg-slate-900 hover:text-brand-500"
+          >About</a
+        >
+        <a
+          href="#impact"
+          class="block px-3 py-2 rounded-md text-base font-medium text-slate-200 hover:bg-slate-900 hover:text-brand-500"
+          >Impact & Metrics</a
+        >
+        <a
+          href="#ventures"
+          class="block px-3 py-2 rounded-md text-base font-medium text-slate-200 hover:bg-slate-900 hover:text-brand-500"
+          >Ventures & SDG 9</a
+        >
+        <a
+          href="#logs"
+          class="block px-3 py-2 rounded-md text-base font-medium text-slate-200 hover:bg-slate-900 hover:text-brand-500"
+          >XHTML Lab Logs</a
+        >
+        <a
+          href="#contact"
+          class="block px-3 py-2 rounded-md text-base font-medium text-slate-200 hover:bg-slate-900 hover:text-brand-500"
+          >Contact</a
+        >
+      </div>
+    </header>
+
+    <main class="flex-grow">
+      <!-- Hero Section & Academic/Enterprise Badges -->
+      <section id="about" class="py-20 border-b border-slate-800/60">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div class="max-w-4xl">
+            <div
+              class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-brand-500/10 border border-brand-500/20 text-brand-500 text-xs font-semibold mb-6"
+            >
+              <span
+                class="w-2 h-2 rounded-full bg-brand-500 animate-pulse"
+              ></span>
+              Technologist • Startup Builder • SDG 9 Advocate
+            </div>
+            <h1
+              class="text-4xl sm:text-6xl font-extrabold tracking-tight text-white mb-6 leading-tight"
+            >
+              Bridging high-performance software R&amp;D with practical youth
+              enterprise &amp; infrastructure.
+            </h1>
+            <p class="text-lg text-slate-300 mb-8 leading-relaxed">
+              I operate at the intersection of technical R&D, software
+              engineering, and community-driven enterprise. Rather than relying
+              purely on theoretical knowledge, I focus on actionable incubation,
+              cross-sector partnerships, and scalable digital transformation
+              aligned with
+              <span class="text-brand-500 font-semibold"
+                >SDG 9 (Industry, Innovation, and Infrastructure)</span
+              >.
+            </p>
+
+            <!-- Professional & Academic Integration Links -->
+            <div class="flex flex-wrap gap-3">
+              <a
+                href="https://orcid.org"
+                target="_blank"
+                rel="noopener"
+                class="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-slate-900 border border-slate-800 hover:border-brand-500/50 hover:text-brand-500 transition text-sm font-medium"
+              >
+                <i class="fa-brands fa-orcid text-emerald-500"></i> ORCID iD
+              </a>
+              <a
+                href="https://linkedin.com"
+                target="_blank"
+                rel="noopener"
+                class="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-slate-900 border border-slate-800 hover:border-brand-500/50 hover:text-brand-500 transition text-sm font-medium"
+              >
+                <i class="fa-brands fa-linkedin text-sky-500"></i> LinkedIn
+              </a>
+              <a
+                href="https://github.com"
+                target="_blank"
+                rel="noopener"
+                class="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-slate-900 border border-slate-800 hover:border-brand-500/50 hover:text-brand-500 transition text-sm font-medium"
+              >
+                <i class="fa-brands fa-github"></i> GitHub
+              </a>
+              <a
+                href="https://scholar.google.com"
+                target="_blank"
+                rel="noopener"
+                class="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-slate-900 border border-slate-800 hover:border-brand-500/50 hover:text-brand-500 transition text-sm font-medium"
+              >
+                <i class="fa-solid fa-graduation-cap text-amber-500"></i>
+                Scholar
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Measurable Impact & Community Metrics -->
+      <section
+        id="impact"
+        class="py-16 bg-slate-900/30 border-b border-slate-800/60"
+      >
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div class="mb-10">
+            <h2 class="text-2xl font-bold text-white mb-2">
+              Measurable Community & Youth Impact
+            </h2>
+            <p class="text-slate-400 text-sm">
+              Data-backed outcomes delivered through hands-on regional
+              engagement.
+            </p>
+          </div>
+          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            <div class="bg-slate-900/80 border border-slate-800 p-6 rounded-xl">
+              <div class="text-3xl font-extrabold text-brand-500 mb-1">
+                150+
+              </div>
+              <div class="text-sm font-medium text-white mb-1">
+                Young Entrepreneurs Mentored
+              </div>
+              <p class="text-xs text-slate-400">
+                Practical incubation and lean startup frameworks deployed.
+              </p>
+            </div>
+            <div class="bg-slate-900/80 border border-slate-800 p-6 rounded-xl">
+              <div class="text-3xl font-extrabold text-brand-500 mb-1">12</div>
+              <div class="text-sm font-medium text-white mb-1">
+                Youth-Led Ventures Launched
+              </div>
+              <p class="text-xs text-slate-400">
+                Taking prototypes from concept to operational enterprises.
+              </p>
+            </div>
+            <div class="bg-slate-900/80 border border-slate-800 p-6 rounded-xl">
+              <div class="text-3xl font-extrabold text-brand-500 mb-1">5+</div>
+              <div class="text-sm font-medium text-white mb-1">
+                Cross-Sector Partnerships
+              </div>
+              <p class="text-xs text-slate-400">
+                Bridging academic institutions, industry players, and regional
+                bodies.
+              </p>
+            </div>
+            <div class="bg-slate-900/80 border border-slate-800 p-6 rounded-xl">
+              <div class="text-3xl font-extrabold text-brand-500 mb-1">8+</div>
+              <div class="text-sm font-medium text-white mb-1">
+                Campus Outreach Programs
+              </div>
+              <p class="text-xs text-slate-400">
+                Embedding enterprise training into higher education frameworks.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Ventures & SDG 9 R&D Projects Showcase -->
+      <section id="ventures" class="py-20 border-b border-slate-800/60">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div
+            class="flex flex-col md:flex-row md:items-end justify-between mb-12"
+          >
+            <div>
+              <h2 class="text-3xl font-bold text-white mb-2">
+                Startup Ventures &amp; SDG 9 Initiatives
+              </h2>
+              <p class="text-slate-400">
+                Tangible projects focusing on scalable innovation, digital
+                transformation, and regional infrastructure.
+              </p>
+            </div>
+          </div>
+
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <!-- Project 1 -->
+            <div
+              class="bg-slate-900/60 border border-slate-800 rounded-xl p-6 hover:border-slate-700 transition flex flex-col justify-between"
+            >
+              <div>
+                <div
+                  class="flex items-center justify-between text-xs text-slate-400 mb-4"
+                >
+                  <span
+                    class="px-2 py-0.5 rounded bg-brand-500/10 text-brand-500 border border-brand-500/20 font-medium"
+                    >SDG 9 • Innovation Hub</span
+                  >
+                  <span>Active Program</span>
+                </div>
+                <h3 class="text-xl font-bold text-white mb-3">
+                  Regional Startup Incubation &amp; Maker Space
+                </h3>
+                <p class="text-slate-300 text-sm mb-4 leading-relaxed">
+                  Managing grassroots incubator programs providing young
+                  innovators with hardware/software prototyping tools, technical
+                  mentorship, and direct linkage to commercial angel networks.
+                </p>
+              </div>
+              <div
+                class="flex flex-wrap gap-2 pt-4 border-t border-slate-800/80 text-xs font-mono text-slate-400"
+              >
+                <span class="bg-slate-800 px-2.5 py-1 rounded"
+                  >Venture Mentorship</span
+                >
+                <span class="bg-slate-800 px-2.5 py-1 rounded"
+                  >Local Manufacturing</span
+                >
+                <span class="bg-slate-800 px-2.5 py-1 rounded"
+                  >Prototyping</span
+                >
+              </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div
+              class="bg-slate-900/60 border border-slate-800 rounded-xl p-6 hover:border-slate-700 transition flex flex-col justify-between"
+            >
+              <div>
+                <div
+                  class="flex items-center justify-between text-xs text-slate-400 mb-4"
+                >
+                  <span
+                    class="px-2 py-0.5 rounded bg-sky-500/10 text-sky-400 border border-sky-500/20 font-medium"
+                    >Software R&amp;D • Digital Infrastructure</span
+                  >
+                  <span>Open Source</span>
+                </div>
+                <h3 class="text-xl font-bold text-white mb-3">
+                  Decentralized Client-Side R&amp;D Data Platform
+                </h3>
+                <p class="text-slate-300 text-sm mb-4 leading-relaxed">
+                  Engineering lightweight, zero-backend static architectures
+                  (like this XML-driven log framework) allowing
+                  resource-constrained research groups to publish rigorous
+                  technical notes and media without hosting costs.
+                </p>
+              </div>
+              <div
+                class="flex flex-wrap gap-2 pt-4 border-t border-slate-800/80 text-xs font-mono text-slate-400"
+              >
+                <span class="bg-slate-800 px-2.5 py-1 rounded"
+                  >XHTML / XML</span
+                >
+                <span class="bg-slate-800 px-2.5 py-1 rounded">JavaScript</span>
+                <span class="bg-slate-800 px-2.5 py-1 rounded"
+                  >Systems Architecture</span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Dynamic XHTML Lab Logs Section -->
+      <section id="logs" class="py-20 border-b border-slate-800/60">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div class="max-w-2xl mb-12">
+            <h2 class="text-3xl font-bold text-white mb-2">
+              XHTML Research Logs &amp; Thought Leadership
+            </h2>
+            <p class="text-slate-400">
+              Structured experiment notes, case studies on integrating
+              enterprise into higher education, and technical breakdowns.
+            </p>
+          </div>
+
+          <!-- Container where JavaScript will inject parsed logs -->
+          <div
+            id="logs-container"
+            class="grid grid-cols-1 md:grid-cols-2 gap-6"
+          >
+            <div
+              class="p-8 rounded-xl border border-slate-800 bg-slate-900/30 text-center col-span-full"
+            >
+              <i
+                class="fa-solid fa-spinner fa-spin text-3xl text-brand-500 mb-3"
+              ></i>
+              <p class="text-slate-400 text-sm">
+                Loading research logs from manifest...
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact & Direct Channels Section -->
+      <section id="contact" class="py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div class="max-w-3xl mx-auto text-center">
+            <div
+              class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-brand-500/10 border border-brand-500/20 text-brand-500 text-xs font-semibold mb-6"
+            >
+              Get In Touch
+            </div>
+            <h2 class="text-3xl font-bold text-white mb-4">
+              Let's Build &amp; Collaborate
+            </h2>
+            <p class="text-slate-400 mb-8">
+              Whether you want to discuss cross-sector partnerships, startup
+              incubation frameworks, SDG 9 infrastructure initiatives, or
+              technical software R&D collaboration, reach out directly:
+            </p>
+
+            <div
+              class="flex flex-col sm:flex-row items-center justify-center gap-4"
+            >
+              <a
+                href="tel:+254704307624"
+                class="w-full sm:w-auto inline-flex items-center justify-center gap-3 px-6 py-3 rounded-xl bg-slate-900 border border-slate-800 hover:border-brand-500/50 hover:text-brand-500 transition text-sm font-medium"
+              >
+                <i class="fa-solid fa-phone text-brand-500"></i> +254 704 307
+                624
+              </a>
+              <a
+                href="mailto:officialnoreply003@gmail.com"
+                class="w-full sm:w-auto inline-flex items-center justify-center gap-3 px-6 py-3 rounded-xl bg-slate-900 border border-slate-800 hover:border-brand-500/50 hover:text-brand-500 transition text-sm font-medium"
+              >
+                <i class="fa-solid fa-envelope text-brand-500"></i>
+                officialnoreply003@gmail.com
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="border-t border-slate-800 py-8 bg-slate-950">
+      <div class="max-w-7xl mx-auto px-4 text-center text-xs text-slate-500">
+        Hosted on GitHub Pages • R&amp;D Workbench &amp; Enterprise Hub
+      </div>
+    </footer>
+
+    <!-- Mobile Nav Toggle & Dynamic XML Fetcher Script -->
+    <script>
+      // Mobile Navigation Toggle
+      const menuBtn = document.getElementById("menu-btn");
+      const mobileMenu = document.getElementById("mobile-menu");
+      const menuIcon = document.getElementById("menu-icon");
+
+      menuBtn.addEventListener("click", () => {
+        const isHidden = mobileMenu.classList.toggle("hidden");
+        menuIcon.className = isHidden
+          ? "fa-solid fa-bars text-xl"
+          : "fa-solid fa-xmark text-xl";
+      });
+
+      // Dynamic XML Fetcher for Logs
+      async function loadXHTMLLogs() {
+        const logsContainer = document.getElementById("logs-container");
+        if (!logsContainer) return;
+
+        try {
+          const manifestRes = await fetch("logs/manifest.xml");
+          if (!manifestRes.ok) throw new Error("Manifest file not found");
+
+          const manifestText = await manifestRes.text();
+          const parser = new DOMParser();
+          const manifestXml = parser.parseFromString(manifestText, "text/xml");
+          const logElements = manifestXml.querySelectorAll("log");
+
+          if (logElements.length === 0) {
+            logsContainer.innerHTML = `<p class="text-slate-400 text-center py-8 col-span-full">No log entries found.</p>`;
+            return;
+          }
+
+          logsContainer.innerHTML = "";
+
+          for (const el of logElements) {
+            const fileName = el.getAttribute("file");
+            const logRes = await fetch(`logs/${fileName}`);
+            if (!logRes.ok) continue;
+
+            const logText = await logRes.text();
+            const logXml = parser.parseFromString(logText, "text/xml");
+
+            const title =
+              logXml.querySelector("title")?.textContent || "Untitled Log";
+            const date =
+              logXml.querySelector("date")?.textContent || "Unknown Date";
+            const time = logXml.querySelector("time")?.textContent || "";
+            const category =
+              logXml.querySelector("category")?.textContent || "General";
+            const contentHTML =
+              logXml.querySelector("content")?.textContent || "";
+
+            const images = Array.from(logXml.querySelectorAll("image")).map(
+              (img) => ({
+                src: img.getAttribute("src"),
+                alt: img.getAttribute("alt") || "",
+                caption: img.getAttribute("caption") || "",
+              }),
+            );
+
+            const tags = Array.from(logXml.querySelectorAll("tag")).map(
+              (tag) => tag.textContent,
+            );
+
+            const card = document.createElement("article");
+            card.className =
+              "bg-slate-900/60 border border-slate-800 rounded-xl p-6 hover:border-slate-700 transition flex flex-col gap-4";
+
+            let imagesHTML = "";
+            if (images.length > 0) {
+              imagesHTML = `
+                            <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 my-2">
+                                ${images
+                                  .map(
+                                    (img) => `
+                                    <figure class="overflow-hidden rounded-lg border border-slate-800 bg-slate-950">
+                                        <img src="${img.src}" alt="${img.alt}" class="w-full h-48 object-cover hover:scale-105 transition duration-300" loading="lazy" />
+                                        ${img.caption ? `<figcaption class="p-2 text-xs text-slate-400 border-t border-slate-800/80">${img.caption}</figcaption>` : ""}
+                                    </figure>
+                                `,
+                                  )
+                                  .join("")}
+                            </div>
+                        `;
+            }
+
+            card.innerHTML = `
+                        <div class="flex items-center justify-between text-xs text-slate-400 border-b border-slate-800/80 pb-3">
+                            <span class="px-2 py-0.5 rounded bg-brand-500/10 text-brand-500 border border-brand-500/20 font-medium">${category}</span>
+                            <div class="flex items-center gap-2">
+                                <i class="fa-regular fa-clock"></i>
+                                <span>${date} ${time ? `• ${time}` : ""}</span>
+                            </div>
+                        </div>
+
+                        <h3 class="text-xl font-bold text-white tracking-tight">${title}</h3>
+
+                        ${imagesHTML}
+
+                        <div class="text-sm text-slate-300 space-y-3 leading-relaxed">
+                            ${contentHTML}
+                        </div>
+
+                        ${
+                          tags.length > 0
+                            ? `
+                            <div class="flex flex-wrap gap-2 pt-2 border-t border-slate-800/80 mt-2">
+                                ${tags.map((t) => `<span class="bg-slate-800/80 text-slate-400 text-xs px-2.5 py-1 rounded-md font-mono">#${t}</span>`).join("")}
+                            </div>
+                        `
+                            : ""
+                        }
+                    `;
+
+            logsContainer.appendChild(card);
+          }
+        } catch (err) {
+          console.error("Error fetching XHTML logs:", err);
+          logsContainer.innerHTML = `
+                    <div class="p-6 rounded-xl border border-rose-500/20 bg-rose-500/5 text-rose-400 text-center text-sm col-span-full">
+                        Failed to load XML research logs. Make sure you are running a local web server (like Live Server or Python http.server) and your <code>logs/manifest.xml</code> is configured correctly.
+                    </div>
+                `;
+        }
+      }
+
+      document.addEventListener("DOMContentLoaded", loadXHTMLLogs);
+    </script>
+  </body>
+</html>

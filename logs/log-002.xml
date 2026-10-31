@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entry id="log-002">
+    <meta>
+        <title>Restoration Projects &amp; Living Collections: Ecological Resilience of Acacia tortilis</title>
+        <date>March 3, 2024</date>
+        <time>11:30 EAT</time>
+        <author>R&amp;D Workbench</author>
+        <category>Ecological Infrastructure</category>
+        <tags>
+            <tag>Restoration</tag>
+            <tag>AridEcosystems</tag>
+            <tag>Agroforestry</tag>
+            <tag>IndigenousFlora</tag>
+        </tags>
+    </meta>
+
+    <!-- First Image: Early in the blog post context -->
+    <media position="top">
+        <image src="logs/images/acacia-tortilis-habitat.jpg" alt="Acacia tortilis in Arid Lowlands" caption="Fig 1.1: Mature Acacia tortilis specimen exhibiting classic flat-topped canopy morphology in semi-arid pastoral lowlands." />
+    </media>
+
+    <!-- Content written in standard XHTML inside CDATA -->
+    <content>
+        <![CDATA[
+            <p>As part of our living collections and regional restoration initiatives, evaluating indigenous flora with high ecological and socio-economic utility is paramount. <em>Acacia tortilis</em> stands out as a keystone species across arid and semi-arid lands (ASALs), demonstrating remarkable resilience in marginal environments.</p>
+            
+            <p>Locally recognized across diverse linguistic groups—known as <em>Otiep</em> (Luo), <em>Oltepes</em> (Maasai), and <em>Mugaa</em> (Mbeere)—this species occupies elevations from sea level up to 1,650 meters, exhibiting high edaphic plasticity across sandy loams, alluvial silts, and challenging vertisols (black-cotton soils).</p>
+
+            <p><strong>Arid Adaptation &amp; Hydrological Profiling:</strong></p>
+            <ul>
+                <li><strong>Root Architecture:</strong> A robust, dimorphic root system combining an extensive lateral network with a deep taproot facilitates access to sub-surface water tables, buffering against extreme meteorological droughts.</li>
+                <li><strong>Canopy Micro-Climate:</strong> The characteristic umbrella-shaped canopy creates vital understory shade, mitigating soil moisture evaporation and suppressing local ambient surface temperatures.</li>
+            </ul>
+
+            <p>Beyond ecological stabilization, <em>Acacia tortilis</em> functions as a critical node in pastoral bio-economy. Its high-protein pods provide essential dry-season fodder, while local exudate gums serve nutritional and traditional utility across Pokot, Turkana, and Somali communities.</p>
+        ]]>
+    </content>
+
+    <!-- Second Image: Placed further down near the economic/pastoral utilization section -->
+    <media position="bottom">
+        <image src="logs/images/acacia-pods-fodder.jpg" alt="Acacia tortilis Pod Harvesting" caption="Fig 1.2: Detail of nutrient-dense pods harvested for sustainable dry-season livestock fodder management." />
+    </media>
+    
+    <content>
+        <![CDATA[
+            <p>Integrating such indigenous species into community-led restoration frameworks bridges traditional ecological knowledge with scalable, data-backed land management. Future iterations will focus on seed-bank mapping and survival rate tracking via our decentralized client-side toolsets.</p>
+        ]]>
+    </content>
+</entry>

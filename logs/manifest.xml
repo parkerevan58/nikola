@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <log file="log-001.xml" />
+    <log file="log-002.xml" />
+    <log file="log-003.xml" />
+    <log file="paper-001.xml" />
+</manifest>
